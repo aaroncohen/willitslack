@@ -1,0 +1,48 @@
+#resultText {
+    display: none;
+}
+
+#imgBox {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.stamped
+{
+    font: normal 6em/1.1 'Fjalla One', Arial, sans-serif;
+    text-transform: uppercase;
+    border: .125em solid;
+    display: inline-block;
+    border-radius: .2em;
+    padding: .15em .15em 0.075em;
+    white-space: nowrap;
+    -webkit-mask-image: url(/images/texture.png);
+    -moz-mask-image: url(/images/texture.png);
+    -o-mask-image: url(/images/texture.png);
+    mask-image: url(/images/texture.png);
+}
+
+.good
+{
+    color: #3ecc38;
+    border-color: #3ecc38;
+    display: inline-block !important;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.bad
+{
+    color: #cc0f16;
+    border-color: #cc0f16;
+    display: inline-block !important;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
