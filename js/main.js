@@ -19,7 +19,7 @@ $(document).ready(function () {
         if (url) {
             imgBox.attr('src', $(this).val());
             imgBox.removeClass('hidden');
-            $.get('http://doorboard.herokuapp.com/head?url=' + encodeURI(url), function (response) {
+            $.get('https://doorboard.herokuapp.com/head?url=' + encodeURI(url), function (response) {
                 var size = parseInt(response);
                 if (size === 0 || isNaN(size)) {
                     console.log('Zero or NaN size');
