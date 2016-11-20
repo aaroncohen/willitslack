@@ -19,10 +19,10 @@
     border-radius: .2em;
     padding: .15em .15em 0.075em;
     white-space: nowrap;
-    -webkit-mask-image: url(/images/texture.png);
-    -moz-mask-image: url(/images/texture.png);
-    -o-mask-image: url(/images/texture.png);
-    mask-image: url(/images/texture.png);
+    -webkit-mask-image: url(images/texture.png);
+    -moz-mask-image: url(images/texture.png);
+    -o-mask-image: url(images/texture.png);
+    mask-image: url(images/texture.png);
 }
 
 .good
